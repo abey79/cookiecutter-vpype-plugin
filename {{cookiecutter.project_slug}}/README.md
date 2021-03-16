@@ -20,7 +20,7 @@ Use this method if you have an existing `vpype` installation (typically in an ex
 want to make this plug-in available. You must activate your virtual environment beforehand.
 
 ```bash
-$ pip install git+https://github.com/abey79/{{cookiecutter.project_slug}}.git#egg={{cookiecutter.project_slug}}
+$ pip install git+https://github.com/{{cookiecutter.author_github_id}}/{{cookiecutter.project_slug}}.git#egg={{cookiecutter.project_slug}}
 ```
 
 Check that your install is successful:
@@ -46,7 +46,7 @@ Commands:
 Use this method if you need to edit this project. First, clone the project:
 
 ```bash
-$ git clone https://github.com/abey79/{{cookiecutter.project_slug}}.git
+$ git clone https://github.com/{{cookiecutter.author_github_id}}/{{cookiecutter.project_slug}}.git
 $ cd {{cookiecutter.project_slug}}
 ```
 
